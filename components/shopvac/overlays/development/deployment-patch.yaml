@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: shopvac
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhn-support-weaton-tenant/shopvac/shopvac@sha256:d9ee75f924e39a0fc11f688a3e405268b4228c36d215ae2e24919dcd20f396e7
+        name: container-image
+        resources: {}
+status: {}
