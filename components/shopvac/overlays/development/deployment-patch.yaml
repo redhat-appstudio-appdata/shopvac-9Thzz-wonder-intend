@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhn-support-weaton-tenant/shopvac/shopvac@sha256:d9ee75f924e39a0fc11f688a3e405268b4228c36d215ae2e24919dcd20f396e7
+      - image: quay.io/redhat-user-workloads/rhn-support-weaton-tenant/shopvac/shopvac@sha256:c9937d4185e102814c66e607844586344d01b4eda540e70f57fce0e54da4174c
         name: container-image
         resources: {}
 status: {}
